@@ -1,0 +1,3 @@
+<launch>
+    <node name="simple_topic_publisher" pkg="exercise_3_1" type="simple_topic_publisher.py" output="screen" />
+</launch>

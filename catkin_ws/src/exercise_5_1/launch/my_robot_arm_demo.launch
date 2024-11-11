@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the service for executing the trajectory -->
+    <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+
+    <!-- Launch the Python script to execute the trajectory -->
+    <node name="exercise_5_1" pkg="exercise_5_1" type="exercise_5_1.py" output="screen"/>
+</launch>
